@@ -3,3 +3,35 @@
   margin:0;
   box-sizing:border-box;
 }
+
+header{
+  width:1297px;
+  height:40px;
+}
+.split{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:50px;
+}
+
+#logo{
+  width:240px;
+  height:38px;
+}
+
+#try-it{
+  width:136px;
+  height:40px;
+  font-size:16px;
+  border-radius:20px;
+  border: 1px solid #FF52C1;
+  background-color: #fff;
+  color: #FF52C1;
+}
+
+#try-it:hover{
+    border: 1px solid #FF8ED7;
+    color:#FF8ED7;
+    cursor: pointer;
+}

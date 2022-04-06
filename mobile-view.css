@@ -1,1 +1,27 @@
-
+@media screen and (min-width: 480px) {
+ /*   header{
+        width:327px;
+        height:24px;
+      }
+      .split{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:10px;
+      }
+      
+      #logo{
+        width:96px;
+        height:16px;
+      }
+      
+      #try-it{
+        width:80px;
+        height:23.53px;
+        font-size:9.41px;
+        border-radius:20px;
+        border: 1px solid #FF52C1;
+        background-color: #fff;
+        color: #FF52C1;
+      }
+}*/
