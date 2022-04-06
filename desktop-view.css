@@ -38,13 +38,14 @@
 .hero-container{
   position: relative;
   top:150px;
-  font-family: poppins;
 }
 
 .subject{
   text-align:center;
-  font-size: 48px;
+  font-size: 33px;
   font-weight:500;
+  font-family: 'Poppins', sans-serif;
+  color: #00252E;
 }
 
 .para{
@@ -55,4 +56,86 @@
   position: relative;
   top:40px;
   font-size: 20px;
+  color: #00252E;
 }
+
+#get-started{
+  width:400px;
+  height:80px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: hidden;
+  background-color: #FF52C1;
+  color: #fff;
+}
+
+.get-started{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top:90px;
+}
+
+#image1{
+  width:1016px;
+  height:720px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:150px;
+}
+
+.com-messages{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top:50px;
+  padding-left:200px;
+  padding-right:200px;
+  position: relative;
+  top:180px;
+  font-family: 'Open Sans';
+  color: #00252E;
+}
+
+.commu{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#commu{
+  width:56px;
+  height:56px;
+}
+
+#k{
+  font-size: 96px;
+}
+
+#kmu{
+  font-size: 24px;
+}
+
+.mess{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#icon-mess{
+  width:56px;
+  height:56px;
+}
+
+#m{
+  font-size: 96px;
+}
+
+#sent{
+  font-size: 24px;
+}
+
+
+
