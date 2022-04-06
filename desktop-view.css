@@ -4,15 +4,14 @@
   box-sizing:border-box;
 }
 
-header{
-  width:1297px;
-  height:40px;
-}
+
 .split{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  padding:50px;
+  padding-top:50px;
+  padding-left:80px;
+  padding-right:80px;
 }
 
 #logo{
@@ -34,4 +33,26 @@ header{
     border: 1px solid #FF8ED7;
     color:#FF8ED7;
     cursor: pointer;
+}
+
+.hero-container{
+  position: relative;
+  top:150px;
+  font-family: poppins;
+}
+
+.subject{
+  text-align:center;
+  font-size: 48px;
+  font-weight:500;
+}
+
+.para{
+  font-family: 'Open sans';
+  text-align:center;
+  width:580px;
+  margin: auto;
+  position: relative;
+  top:40px;
+  font-size: 20px;
 }
