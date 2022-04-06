@@ -67,6 +67,7 @@
   border: hidden;
   background-color: #FF52C1;
   color: #fff;
+  box-shadow: 0px 5px 10px rgb(179, 179, 179);
 }
 
 .get-started{
@@ -188,6 +189,7 @@
 
 #bold{
   font-size: 40px;
+  font-family: 'Poppins';
   position: relative;
   top:80px;
 }
@@ -209,7 +211,7 @@
 
 #flow-image{
   width:560px;
-  height:460px;
+  height:auto;
 }
 
 .flow-text{
@@ -222,6 +224,7 @@
 
 #flow-bold{
   font-size: 40px;
+  font-family: 'Poppins';
 }
 
 #flow-para{
@@ -229,3 +232,117 @@
   position: relative;
   top:20px;
 }
+
+.user-bg{
+  position:relative;
+  top:150px;
+}
+
+.user-backgroundtop{
+  background-image: url('/images/bg-section-top-desktop-2.svg');
+  background-repeat: no-repeat;
+  position: relative;
+  top:20px;
+  height:170px;
+}
+
+.user-backgroundmid{
+  background-color: #F6FBFF;
+  height:500px;
+  position: relative;
+  
+}
+
+.user-backgroundbottom{
+  background-image: url('/images/bg-section-bottom-desktop-2.svg');
+  background-repeat: no-repeat;
+  position: relative;
+  height:170px;
+}
+
+.user-main{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+  position: relative;
+  top:-480px;
+}
+
+#user-image{
+  width:560px;
+  height:auto;
+}
+
+.user-text{
+  font-family: 'Open sans';
+  color:#00252E;
+  position: relative;
+  top:120px;
+}
+
+#user-para{
+  width:500px;
+  height: auto;
+  position:relative;
+  top:30px;
+  font-size: 16px;
+}
+
+#user-bold{
+  font-size: 40px;
+  font-family: 'Poppins';
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-180px;
+    font-family: 'Open sans';
+}
+
+#bottom-quest{
+  font-family: 'Poppins';
+  font-size: 40px;
+  color:#00252E;
+}
+
+#getting-start{
+  width:400px;
+  height:80px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 0px hidden;
+  background-color: #FF52C1;
+  color: #fff;
+  font-size: 20px;
+  position:relative;
+  top:30px;
+  box-shadow: 0px 5px 10px rgb(179, 179, 179);
+}
+
+#getting-start:hover{
+  border: 1px hidden #FF8ED7;
+  background-color: #FF8ED7;
+  cursor: pointer;
+}
+
+.footer-svg{
+  background-image: url('/images/Footer-background.svg');
+  height:710px;
+  background-repeat: no-repeat;
+  position: relative;
+  top:60px;
+}
+
+.footer-container{
+  position: relative;
+  top:200px;
+}
+
+
+
