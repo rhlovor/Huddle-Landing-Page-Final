@@ -336,13 +336,150 @@
   height:710px;
   background-repeat: no-repeat;
   position: relative;
-  top:60px;
+  
 }
 
-.footer-container{
+#footer-container{
   position: relative;
   top:200px;
+  font-family: 'Open Sans';
+  z-index: 1;
+  color:#fff;
+  position: relative;
+  top:500px;
+  display:flex;
+  flex-direction: row;
+  padding-left:80px;
+  padding-right:80px;
+  justify-content: space-between;
+  
+}
+
+.left{
+  position: relative;
+  top:50px;
+}
+#footer-para{
+  width:400px;
+  height:auto;
+  position: relative;
+  top:30px;
+  font-size: 14px;
+  z-index: 1;
+
+}
+
+.phone-main{
+  position: relative;
+  top:60px;
+  display:flex;
+  flex-direction: row-reverse;
+  width:222px;
+  justify-content: space-between;
+}
+
+.mail-main{
+  position: relative;
+  top:80px;
+  display:flex;
+  flex-direction: row-reverse;
+  width:208px;
+  justify-content: space-between;
+}
+
+#logo-white{
+  filter:brightness(0) invert(1);
 }
 
 
+.icon-main{
+  position: relative;
+  top:110px;
+  display:flex;
+  flex-direction: row-reverse;
+  width:144px;
+  justify-content: space-between;
+}
+
+
+
+#facebook{
+  width:32px;
+  height:32px;
+}
+
+#facebook:hover{
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(150deg) brightness(119%) contrast(119%);
+  cursor: pointer;
+}
+
+#instagram{
+  width:32px;
+  height:32px;
+}
+
+#instagram:hover{
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(150deg) brightness(119%) contrast(119%);
+  cursor: pointer;
+}
+
+#twitter{
+  width:32px;
+  height:32px;
+}
+
+#twitter:hover{
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(150deg) brightness(119%) contrast(119%);
+  cursor: pointer;
+}
+
+.footer-right{
+  position: relative;
+  top:50px;
+}
+
+#right-para{
+  position: relative;
+  top:30px;
+  width:340px;
+  height:auto;
+  font-size: 14px;
+
+}
+
+.input-sub{
+  width:520px;
+  position: relative;
+  top:60px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#input{
+  width:320px;
+  height:48px;
+  border-radius: 10px;
+  border:hidden pink;
+  padding: 10px;
+}
+
+#input:hover{
+  border: 1px solid red;
+}
+
+#submit{
+  width:160px;
+  height:48px;
+  border-radius: 10px;
+  border:hidden;
+  color:#fff;
+  background-color: #FF52C1;
+}
+
+#submit:hover{
+  border: 1px hidden #FF8ED7;
+  background-color: #FF8ED7;
+  cursor: pointer;
 
