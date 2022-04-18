@@ -494,9 +494,7 @@ body {
 
 
 @media only screen and (max-width: 375px) {
-  body {
-    overflow: hidden auto;
-  }
+
 
 
   .split {
@@ -508,7 +506,7 @@ body {
     padding-right: 30px;
   }
 
-  #logo {
+  #logo{
     width: 96px;
     height: 16px;
   }
