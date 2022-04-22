@@ -340,18 +340,17 @@ body {
   background-image: url('./images/Footer-background.svg');
   background-size: cover;
   height: 710px;
+  width: 100vw;
   background-repeat: no-repeat;
   position: absolute;
 }
 
 #footer-container {
-  position: relative;
-  top: 200px;
   font-family: 'Open Sans';
   z-index: 1;
-  color: rgb(95, 40, 40);
+  color: rgb(255, 255, 255);
   position: relative;
-  top: 500px;
+  top: 400px;
   display: flex;
   flex-direction: row;
   padding-left: 80px;
@@ -491,7 +490,7 @@ body {
 
 }
 
-/*
+
 @media only screen and (max-width: 376px) {
 
   .split {
