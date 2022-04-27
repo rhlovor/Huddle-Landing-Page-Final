@@ -6,6 +6,8 @@
 
 body {
   overflow: hidden auto;
+  width:100vw;
+
 }
 
 .split {
@@ -154,6 +156,7 @@ body {
   position: relative;
   top: 300px;
   height: 170px;
+  width:100vw;
 }
 
 .grow-backgroundmid {
@@ -161,6 +164,7 @@ body {
   height: 500px;
   position: relative;
   top: 280px;
+  width:100vw;
 }
 
 .grow-backgroundbottom {
@@ -169,6 +173,7 @@ body {
   position: relative;
   top: 278px;
   height: 170px;
+  width:100vw;
 }
 
 .grow-main {
